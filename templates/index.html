@@ -1,1 +1,31 @@
+<!DOCTYPE html>
+<html>
 
+<head>
+    <title>Future Sales Prediction with Machine Learning</title>
+    <link rel="stylesheet" type="text/css" href="static/style.css">
+</head>
+
+<body>
+    <div class="input">
+        <h1>Future Sales Prediction with Machine Learning</h1>
+        <form method="post" action="/predict">
+
+            <label for="stock">TV:</label>
+            <input type="integer" id="stock" name="TV" placeholder="TV">
+
+            <label for="stock">Radio:</label>
+            <input type="integer" id="stock" name="Radio" placeholder="Radio">
+
+            <label for="stock">Newspaper:</label>
+            <input type="integer" id="stock" name="Newspaper" placeholder="Newspaper">
+
+            <input type="submit" value="Submit">
+        </form>
+    </div>
+
+    <p> Future Sales: {{ prediction }}</p>
+</body>
+
+
+</html>
