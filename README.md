@@ -96,6 +96,8 @@ Now let’s train the model to predict future sales:
 model = LinearRegression()
 model.fit(xtrain, ytrain)
 print(model.score(xtest, ytest))
-```
-[16.95475874]
 
+```
+```
+16.95475874
+```
