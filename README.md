@@ -74,5 +74,28 @@ sns.heatmap(correlation, annot=True)
 
 ![corr](https://user-images.githubusercontent.com/85225054/233144172-1ffcacf2-fc47-40a6-9a8f-409656db75fa.png)
 
+import required libraries
 
+```
+import pandas as pd
+import numpy as np
+from sklearn.model_selection import train_test_split
+from sklearn.linear_model import LinearRegression
+```
+Now in this section, I will train a machine learning model to predict the future sales of a product. But before I train the model, let’s split the data into training and test sets:
+```
+x = np.array(data.drop(["Sales"], 1))
+y = np.array(data["Sales"])
+xtrain, xtest, ytrain, ytest = train_test_split(x, y, 
+                                                test_size=0.2, 
+                                                random_state=42)
+```
+Now let’s train the model to predict future sales:
+
+```
+model = LinearRegression()
+model.fit(xtrain, ytrain)
+print(model.score(xtest, ytest))
+```
+[16.95475874]
 
