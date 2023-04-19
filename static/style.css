@@ -1,1 +1,10 @@
+body {
+    background-image: url('backtground.jpg');
+    /* replace 'background.jpg' with your image file path */
+    background-size: cover;
+    /* background-position: center; */
+    font-family: Arial, sans-serif;
+    align-items: center;
+    background-repeat: no-repeat;
+}
 
