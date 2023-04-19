@@ -101,3 +101,11 @@ print(model.score(xtest, ytest))
 ```
 16.95475874
 ```
+
+Save the model by dumping using pickle 
+
+```
+# save model
+import pickle
+pickle.dump(model, open('model.pkl', 'wb'))
+```
