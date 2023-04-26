@@ -109,3 +109,14 @@ Save the model by dumping using pickle
 import pickle
 pickle.dump(model, open('model.pkl', 'wb'))
 ```
+
+Before Prediction the web page looks 
+
+![before_prediction](https://user-images.githubusercontent.com/85225054/234588531-a9687540-2aab-4246-91ec-b9c2ad62c92e.png)
+
+After Prediction web page shows the prediction 
+
+![after_predictiuoin](https://user-images.githubusercontent.com/85225054/234588744-875ac51c-d040-4c65-969e-77ea7fd165a3.png)
+
+
+
