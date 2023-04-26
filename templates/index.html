@@ -4,28 +4,53 @@
 <head>
     <title>Future Sales Prediction with Machine Learning</title>
     <link rel="stylesheet" type="text/css" href="static/style.css">
-</head>
+    <!-- <p style="background-color:tomato;"> Future Sales: {{ Prediction }}</p>
+    <img src="static/chat.png" alt="Trulli" width="150" height="200"  {{ Prediction }}> -->
 
-<body>
-    <div class="input">
-        <h1>Future Sales Prediction with Machine Learning</h1>
-        <form method="post" action="/predict">
-
-            <label for="stock">TV:</label>
-            <input type="integer" id="stock" name="TV" placeholder="TV">
-
-            <label for="stock">Radio:</label>
-            <input type="integer" id="stock" name="Radio" placeholder="Radio">
-
-            <label for="stock">Newspaper:</label>
-            <input type="integer" id="stock" name="Newspaper" placeholder="Newspaper">
-
-            <input type="submit" value="Submit">
-        </form>
+    <div class="container">
+        <img src="static/chat_color.png" alt="Snow"  width="170" height="200" >
+        <div class="centered">Future Sales: {{ Prediction }}</div>
     </div>
 
-    <p> Future Sales: {{ prediction }}</p>
+
+</head>
+
+<!DOCTYPE html>
+<html lang="en">
+</head>
+
+<body align="center" class="a">
+    
+        <div align="center" class="border">
+        <div class="form-val" class = "grey">
+            <form method="post" class = "view" action="/predict"  >
+        
+                <label for="stock"></label><br>
+                <input type="integer" id="stock" name="TV" class="tv" placeholder="TV"> <br> <br>
+            
+                <label for="stock"></label>
+                <input type="integer" id="stock" name="Radio" class = "tv" placeholder="Radio"> <br> <br>
+           
+                <label for="stock"></label>
+                <input type="integer" id="stock" name="Newspaper" class="tv" placeholder="Newspaper"> <br><br>
+
+                <!-- <input type="submit" value="Submit"> -->
+                <br> 
+                <button class=grey type="submit" value="Submit" name="Prediction"> Prediction </button>
+
+                
+            </form>
+        </div> <br>
+        
+
+        </div><br> 
+
+            
+        </div>
+        <br><br> 
+       
+
 </body>
 
-
 </html>
+
