@@ -1,5 +1,5 @@
 body {
-    background-image: url('backtground.jpg');
+    background-image: url("background.jpg");
     /* replace 'background.jpg' with your image file path */
     background-size: cover;
     /* background-position: center; */
@@ -8,3 +8,147 @@ body {
     background-repeat: no-repeat;
 }
 
+.content {
+    max-width: 500px;
+    margin: auto;
+}
+
+.tv {
+    border: 1px solid;
+    align-items: center;
+    text-align: center;
+    color: #b8467b;
+
+    width: 200px;
+    height: 25px;
+
+    top: 55%;
+
+}
+
+
+
+.a {
+
+    width: 395px;
+    height: 395px;
+
+    /* Center vertically and horizontally */
+    position: absolute;
+    top: 55%;
+    left: 20%;
+    transform: translate(-50%, -50%);
+}
+
+.view {
+
+    width: 300px;
+    height: 275px;
+
+    /* Optional Styling */
+    padding: 30px;
+    border-style: solid;
+    border-color: #B6C7D6;
+    border-radius: 40px;
+    background-color: #EAF0F6;
+
+}
+
+
+.grey {
+    font-family: Montserrat-Bold;
+    font-size: 15px;
+    line-height: 1.5;
+    color: #fff;
+    text-transform: uppercase;
+    width: 50%;
+    height: 50px;
+    border-radius: 25px;
+    background: #57b846;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 25px;
+    transition: all .4s;
+    transition-property: all;
+    transition-duration: 0.4s;
+    transition-timing-function: ease;
+    transition-delay: 0s;
+
+}
+
+.grey:hover {
+    background-color: rgb(66, 2, 41);
+    color: rgb(119, 255, 0);
+
+}
+
+.form-check {
+    font-family: Montserrat-Bold;
+    font-size: 15px;
+    line-height: 1.5;
+    text-transform: uppercase;
+    height: 50px;
+    border-radius: 25px;
+    justify-content: center;
+    align-items: center;
+    padding: 0 25px;
+    transition: all .4s;
+    transition-property: all;
+    transition-duration: 0.4s;
+    transition-timing-function: ease;
+    transition-delay: 0s;
+
+}
+
+.w {
+    font-family: Montserrat-Bold;
+    font-size: 15px;
+    line-height: 1.5;
+    height: 50px;
+    border-radius: 25px;
+    justify-content: center;
+    align-items: center;
+    padding: 0 25px;
+    transition: all .4s;
+    transition-property: all;
+    transition-duration: 0.4s;
+    transition-timing-function: ease;
+    transition-delay: 0s;
+    align: center;
+
+}
+
+.form-group {
+    font-family: Montserrat-Bold;
+    font-size: 15px;
+    line-height: 1.5;
+    height: 50px;
+    border-radius: 25px;
+    justify-content: center;
+    align-items: center;
+    padding: 0 25px;
+    transition: all .4s;
+    transition-property: all;
+    transition-duration: 0.4s;
+    transition-timing-function: ease;
+    transition-delay: 0s;
+
+}
+
+
+
+.container {
+    position: relative;
+    text-align: center;
+    color: white;
+    left: 65%;
+}
+
+/* Centered text */
+.centered {
+    position: absolute;
+    top: 35%;
+    left: 53%;
+    transform: translate(-50%, -50%);
+}
